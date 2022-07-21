@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background-attachment: fixed;
+  background-image: url('https://1.bp.blogspot.com/-vkG0CjoS0I0/YG8kU_tQHkI/AAAAAAAADMM/ZZHt3UHGMmoo4TVQ2GfTR2bMoJ20CzV6gCLcBGAsYHQ/s2048/EONb4ENU4AIipTP.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.display-card {
+  display: flex;
+  height: 500px;
+  justify-content: space-evenly;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  margin-left: 20px;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  justify-content: center;
+  width: 350px;
+}
+
+.saveButton {
+  border-radius: 10px;
+  height: 29px;
+  margin-left: 95px;
+  margin-top: 40px;
+  width: 160px;
+}
+
+.saveButton:hover {
+  box-shadow: 0 0 0 4px #5a01a7;
+  outline-color: transparent;
+  outline-style: solid;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.preview {
+  margin-left: 55px;
+}
+
+.cardTryunfo {
+  align-items: center;
+  background-color: black;
+  border: 3px solid white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 340px;
+  width: 130%;
+}
+
+.cardTryunfo:hover {
+  box-shadow: 10px 10px 5px gray;
+  transform: scale(0.95);
+}
+
+.info-card {
+  display: flex;
+  margin: 5px;
+}
+
+.all-cards {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+label {
+  padding: 2px;
+}
+
+textarea {
+  margin-bottom: -2px;
+}
+
+input, textarea, select {
+  margin-left: 5px;
+}
+
+.img-card {
+  height: 140px;
+  width: 220px;
+}
+
+.card {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  margin: 5px;
+}
+
+.search-input {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.delete-button {
+  height: 20px;
 }
