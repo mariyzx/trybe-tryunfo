@@ -8,6 +8,12 @@ O projeto Trynfo foi  desenvolvido por [Mariana Werneck](https://www.linkedin.co
 
 ![Desempenho no Projeto](img/tryunfo.PNG)
 
+## Como utilizar:
+
+<p>Clone o repositório: <code> git@github.com:mariyzx/trybe-tryunfo.git</code>.</p>
+<p>Acesse a pasta do repositório clonado.</p>
+<p>Rode o comando <code>npm install</code> para instalar as dependências do projeto e <code>npm start</code> para visualizar no navegador.</p>
+
 ## Preview:
 
 ![Tela Tryunfo](img/tryunfo2.PNG)
